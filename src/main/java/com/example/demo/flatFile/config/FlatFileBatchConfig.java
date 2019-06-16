@@ -48,7 +48,6 @@ import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import org.springframework.oxm.xstream.XStreamMarshaller;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -63,7 +62,6 @@ import java.util.Map;
  * @date 2019/6/6 10:27
  */
 @Configuration
-@EnableScheduling
 public class FlatFileBatchConfig extends DefaultBatchConfigurer {
 
     @Autowired
